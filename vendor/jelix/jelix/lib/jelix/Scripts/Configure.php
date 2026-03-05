@@ -1,0 +1,30 @@
+<?php
+/**
+ * @author      Laurent Jouanneau
+ * @copyright   2018-2023 Laurent Jouanneau
+ *
+ * @see        http://www.jelix.org
+ * @licence     MIT
+ */
+
+namespace Jelix\Scripts;
+
+/**
+ * Launch commands from modules.
+ */
+class Configure
+{
+    public static function launch()
+    {
+        Utils::checkEnv();
+        // init Jelix environment
+        \jApp::setEnv('configure');
+        Utils::checkTempPath();
+
+        $application = new SingleCommandApplication(
+            new ConfigureCommand(),
+            'Configuration'
+        );
+        return $application->run();
+    }
+}

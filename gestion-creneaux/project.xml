@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://jelix.org/ns/project/1.0">
+    <info id="gestion-creneaux@gc" name="gestion-creneaux" createdate="2025-11-27">
+        <version date="2025-11-27">0.1pre</version>
+        <label lang="en_US">gestion-creneaux</label>
+        <description lang="en_US"></description>
+        <license URL="https://spdx.org/licenses/GPL-3.0-or-later.html">GPL-3.0-or-later</license>
+        <copyright>2025 Kissikol, Devenir Consom'Acteur</copyright>
+        <creator name="Comission Numérique" email="numerique@kissikol.org"/>
+        <homepageURL>https://kissikol.org</homepageURL>
+    </info>
+</project>

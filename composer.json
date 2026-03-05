@@ -1,0 +1,27 @@
+{
+    "name": "kissikol/creneaux",
+    "description": "Gestion des créneaux de Kissikol",
+    "type": "jelix-application",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Commission Numérique",
+            "email": "numerique@kissikol.org"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "jelix/jelix-standard": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "jelix/composer-module-setup": true
+        }
+    },
+    "scripts": {
+        "deploy-assets": [
+            "rm -rf app/www/jelix",
+            "cp -r vendor/jelix/jelix-standard/lib/jelix-www app/www/jelix"
+        ]
+    }
+}
