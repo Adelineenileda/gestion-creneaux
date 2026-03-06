@@ -1,7 +1,0 @@
-*.komodoproject
-.idea
-vendor/
-composer.lock
-_dist
-_site
-_dnl
