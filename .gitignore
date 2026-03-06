@@ -1,0 +1,11 @@
+# ==== IDE PhpStorm / JetBrains ====
+.idea/
+
+# ==== Dépendances Composer ====
+vendor/
+
+# ==== Fichiers système ====
+.DS_Store
+Thumbs.db
+*.swp
+*~
